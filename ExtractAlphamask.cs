@@ -1,14 +1,15 @@
 // Name: Extract Alphamask
-// Submenu: Color
-// Author: Tumby#5171
+// Submenu: Alpha
+// Author: Tumbolisu aka Tumby
 // Title: Extract Alphamask
-// Version: 1.0
-// Desc:
+// Version: 1.1
+// Desc: Convert alpha channel into greyscale image.
 // Keywords: alpha|alphamask|mask
-// URL:
+// URL: https://github.com/Tumbolisu/utility-plugins-paint.net
 // Help:
 #region UICode
 #endregion
+
 
 void Render(Surface dst, Surface src, Rectangle rect)
 {
